@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    background: #365e54;
+    display: flex;
+}
+header div{
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    background: #000;
+    border-right: 2px solid #fff;
+}
+
+header div:hover{
+    background: #666;
+}
+header div a{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    display: none;
+    background: #365e54;
+    color: white;
+    font-size: 22px;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 25px 0;
+}
+
+.inicio{
+    width: 75%;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.inicio ul li{
+    font-size: 20px;
+}
+
+.inicio table{
+    font-size: 18px;
+    border-collapse: collapse;
+    min-width: 900px;
+}
+
+.inicio table tr td{
+    border: 2px solid #000;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.inicio table .cabecera{
+    background: #4a5568;
+    font-size: 20px;
+    font-weight: bold;
+    color: #e5e7eb;
+}
+
+.inicio button{
+    font-size: 20px;
+    padding: 5px;
+    background: #365e54;
+    font-weight: bold;
+    color: #fff;
+}
